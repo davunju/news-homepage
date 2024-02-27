@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>News Homepage | Main</title>
+  </head>
+  <body class="font-inter">
+    <nav class="flex justify-between w-[80%] mx-auto my-10">
+      <img src="img/logo.svg" />
+      <button class="hidden">
+        <img src="img/icon-menu.svg" />
+        <img src="img/icon-menu-close.svg" />
+      </button>
+      <ul class="flex items-center gap-8">
+        <li class="cursor-pointer hover:text-softRed">Home</li>
+        <li class="cursor-pointer hover:text-softRed">New</li>
+        <li class="cursor-pointer hover:text-softRed">Popular</li>
+        <li class="cursor-pointer hover:text-softRed">Trending</li>
+        <li class="cursor-pointer hover:text-softRed">Categories</li>
+      </ul>
+    </nav>
+    <main class="w-[80%] mx-auto">
+      <section class="grid grid-cols-3 gap-7 mb-[5rem]">
+        <img
+          src="img/image-web-3-desktop.jpg"
+          class="col-span-2 max-[600px]:hidden"
+        />
+        <article class="bg-veryDarkBlue row-span-2 p-7 text-offWhite">
+          <h1 class="text-softOrange text-4xl font-bold mb-7">New</h1>
+          <div>
+            <h2
+              class="font-bold text-lg mb-2 hover:text-softOrange cursor-pointer"
+              >Hydrogen VS Electric cars</h2
+            >
+            <p class="text-grayishBlue text-sm"
+              >Will hydrogen-fueled cars ever catch up to EVs?</p
+            >
+          </div>
+          <hr class="my-7" />
+          <div>
+            <h2
+              class="font-bold text-lg mb-2 hover:text-softOrange cursor-pointer"
+              >The Downsides of AI Artistry</h2
+            >
+            <p class="text-grayishBlue text-sm"
+              >What are the possible adverse effects of on-demand AI image
+              generation?</p
+            >
+          </div>
+          <hr class="my-7" />
+          <div>
+            <h2
+              class="font-bold text-lg mb-2 hover:text-softOrange cursor-pointer"
+              >Is VC Funding Drying Up?</h2
+            >
+            <p class="text-grayishBlue text-sm"
+              >Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.</p
+            >
+          </div>
+        </article>
+        <h1 class="text-6xl font-bold text-veryDarkBlue"
+          >The Bright Future of Web 3.0?</h1
+        >
+        <article>
+          <p class="text-[15px] text-darkGrayishBlue font-medium mb-8">
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfulling its promises?
+          </p>
+          <button
+            class="bg-softRed py-3 px-8 text-sm tracking-widest text-offWhite hover:bg-veryDarkBlue"
+            >READ MORE</button
+          >
+        </article>
+      </section>
+      <section class="grid grid-cols-3 gap-5 mb-[5rem]">
+        <div class="flex gap-5">
+          <img src="img/image-retro-pcs.jpg" class="w-[8rem] h-[8rem]" />
+          <article>
+            <h1 class="text-grayishBlue text-3xl font-semibold mb-2">01</h1>
+            <h2
+              class="text-lg text-veryDarkBlue font-bold mb-2 hover:text-softRed cursor-pointer"
+              >Reviving Retro PCs</h2
+            >
+            <p class="text-sm text-darkGrayishBlue font-semibold">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </article>
+        </div>
+        <div class="flex gap-5">
+          <img src="img/image-top-laptops.jpg" class="w-[8rem] h-[8rem]" />
+          <article>
+            <h1 class="text-grayishBlue text-3xl font-semibold mb-2">02</h1>
+            <h2
+              class="text-lg text-veryDarkBlue font-bold mb-2 hover:text-softRed cursor-pointer"
+              >Top 10 Laptops of 2022</h2
+            >
+            <p class="text-sm text-darkGrayishBlue font-semibold"
+              >Our best picks for various needs and budgets.</p
+            >
+          </article>
+        </div>
+        <div class="flex gap-5">
+          <img src="img/image-gaming-growth.jpg" class="w-[8rem] h-[8rem]" />
+          <article>
+            <h1 class="text-grayishBlue text-3xl font-semibold mb-2">03</h1>
+            <h2
+              class="text-lg text-veryDarkBlue font-bold mb-2 hover:text-softRed cursor-pointer"
+              >The Growth of Gaming</h2
+            >
+            <p class="text-sm text-darkGrayishBlue font-semibold"
+              >How the pandemic has sparked fresh opportunities.</p
+            >
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
